@@ -20,4 +20,4 @@ They user will be also asked how often to run this service in seconds.
 5. Step 5: select the interface you want to use to run your test service on
 6. Step 6: enter the interval value (seconds) you want to run your tests
 7. Step 7: Hit enter and you should be able to check for traffic on that interface tcpdump -i <interface name>
-8. Step 8: Check to validate service is active "systemctl status url-checker
+8. Step 8: Check to validate service is active "systemctl status url-checker"
