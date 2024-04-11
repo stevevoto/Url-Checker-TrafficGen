@@ -50,7 +50,7 @@ done
 
 # Ask the user for the interval between checks
 while true; do
-    read -p "Please enter the interval (in seconds) between URL checks (minimum 15 seconds recommended): " interval
+    read -p "Please enter the interval (in seconds) between URL checks (minimum 300 seconds 5 min recommended): " interval
     if [[ $interval =~ ^[1-9][0-9]*$ && $interval -ge 15 ]]; then
         echo "Interval set to $interval seconds."
         break
@@ -109,7 +109,6 @@ runChecks() {
         "http://topix.com" "\033[33mContains user-generated news discussions which may vary in safety."
         "http://www.reddit.com/r/AskReddit" "\033[33mGenerally safe but content can vary based on user submissions."
         "http://www.reddit.com" "\033[33mSocial Media and Community Forum"
-        # Add more URLs here
         "http://www.quora.com" "\033[33mQuestion-and-answer website, generally safe."
         "http://www.wikipedia.org" "\033[33mInformation and Reference"
         "http://www.weather.com" "\033[33mInformation and Weather"
