@@ -145,7 +145,6 @@ runChecks() {
         "http://www.behance.net" "\033[33mArt and Design Portfolio"
         "http://www.instructables.com" "\033[33mDIY and Instructional Content"
         "http://www.lifehacker.com" "\033[33mLife Hacks and Productivity"
-        "http://www.theguardian.com" "\033[33mNews and Journalism"
         "http://www.aljazeera.com" "\033[33mNews and Journalism"
         "http://www.nationalreview.com" "\033[33mNews and Opinion"
         "http://www.politico.com" "\033[33mPolitical News and Analysis"
