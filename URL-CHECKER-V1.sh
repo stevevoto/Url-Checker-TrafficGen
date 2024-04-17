@@ -50,7 +50,7 @@ done
 
 # Ask the user for the interval between checks
 while true; do
-    read -p "Please enter the interval (in seconds) between URL checks (minimum 300 seconds 5 min recommended): " interval
+    read -p "Please enter the interval (in seconds) between URL checks (minimum 600 seconds 10 min recommended): " interval
     if [[ $interval =~ ^[1-9][0-9]*$ && $interval -ge 15 ]]; then
         echo "Interval set to $interval seconds."
         break
